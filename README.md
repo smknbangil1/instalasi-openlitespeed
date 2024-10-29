@@ -7,6 +7,10 @@ install openlitespeed
 ```code
 apt-get -y install openlitespeed
 ```
+memberikan password konfigurasi OLS
+```code
+/usr/local/lsws/admin/misc/admpass.sh
+```
 install lsphp83 via apt
 ```code
 apt-get install -y lsphp83 lsphp83-common lsphp83-curl lsphp83-dbg lsphp83-dev lsphp83-igbinary lsphp83-imagick lsphp83-imap lsphp83-intl lsphp83-ldap lsphp83-modules-source lsphp83-msgpack lsphp83-mysql lsphp83-opcache lsphp83-pear lsphp83-pgsql lsphp83-pspell lsphp83-redis lsphp83-snmp lsphp83-sqlite3 lsphp83-sybase lsphp83-tidy
@@ -15,6 +19,7 @@ cek module yg tersedia di repo
 ```code
 apt-cache search lsphp
 ```
+
 ## pake cara apt aja lebih simple
 
 install lsphp83 via source dan ./configure
